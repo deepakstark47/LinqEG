@@ -18,13 +18,13 @@ namespace LinqEG
             {
                 Console.WriteLine(item);
             }
-
+            //hello
             //method syntax
-            var reqMarks1 = allMarks.Where(i=>i>45).OrderByDescending(i=>i).Select(i => i).ToList();
+            /*var reqMarks1 = allMarks.Where(i=>i>45).OrderByDescending(i=>i).Select(i => i).ToList();
             foreach (int item in reqMarks1)
             {
                 Console.WriteLine(item);
-            }
+            }*/
 
             List<string> fruits = new List<string>() {"apple","mango","strawberry","avocado","apricot"};
 
